@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_orderinquiry_inquiries",
+  "info": {
+    "name": "inquiry",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

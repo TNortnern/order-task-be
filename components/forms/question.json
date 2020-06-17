@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_forms_questions",
+  "info": {
+    "name": "question",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "text"
+    },
+    "question_type": {
+      "model": "question-type"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

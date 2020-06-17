@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strategies",
+  "info": {
+    "name": "Strategy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": false,
+      "component": "options.strategy-options"
+    }
+  }
+}

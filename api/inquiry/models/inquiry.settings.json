@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": {
+    "name": "inquiry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "agent": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "order": {
+      "via": "inquiries",
+      "model": "order"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_options_strategy_options",
+  "info": {
+    "name": "strategyOptions",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.question"
+    }
+  }
+}

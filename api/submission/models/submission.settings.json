@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submissions",
+  "info": {
+    "name": "Submission"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "order": {
+      "model": "order"
+    },
+    "agent": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

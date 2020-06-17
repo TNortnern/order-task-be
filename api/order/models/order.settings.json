@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "strategy": {
+      "model": "strategy"
+    },
+    "client": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "analytics_url": {
+      "type": "string"
+    },
+    "accepted_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "inquiries": {
+      "collection": "inquiry",
+      "via": "order"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_infos",
+  "info": {
+    "name": "UserInfo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "achievement_wants": {
+      "type": "string"
+    },
+    "analytics": {
+      "type": "boolean"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "website": {
+      "type": "string"
+    },
+    "pitch": {
+      "type": "text"
+    }
+  }
+}

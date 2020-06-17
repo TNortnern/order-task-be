@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscription_types",
+  "info": {
+    "name": "SubscriptionType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "words": {
+      "type": "integer"
+    },
+    "monthly_rate": {
+      "type": "decimal"
+    }
+  }
+}
