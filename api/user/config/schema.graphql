@@ -1,0 +1,19 @@
+module.exports = {
+  definition: `
+  type UserPayload {
+      jwt: String
+      user: UsersPermissionsUser
+  }
+  `,
+    mutation: `
+    registerUser(email: String, name: String, username: String, provider: String, password: String): UserPayload
+  `,
+  resolver: {
+    Mutation: {
+      registerUser: {
+        description: 'Alternative to register user for this application',
+        resolver: 'application::user.user.registerUser',
+      },
+    },
+  }
+}
