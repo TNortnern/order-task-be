@@ -58,6 +58,9 @@
     },
     "orders": {
       "collection": "order"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
