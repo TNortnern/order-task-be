@@ -17,8 +17,13 @@
       "type": "richtext"
     },
     "order": {
-      "via": "inquiries",
-      "model": "order"
+      "model": "order",
+      "via": "inquiries"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.question"
     }
   }
 }

@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "answer": {
-      "type": "text"
-    },
-    "question_type": {
-      "model": "question-type"
+    "question": {
+      "model": "question"
     },
     "description": {
+      "type": "string"
+    },
+    "answer": {
       "type": "string"
     }
   }

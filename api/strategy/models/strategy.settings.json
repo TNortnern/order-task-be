@@ -18,10 +18,8 @@
     "notes": {
       "type": "text"
     },
-    "options": {
-      "type": "component",
-      "repeatable": false,
-      "component": "options.strategy-options"
+    "questions": {
+      "collection": "question"
     }
   }
 }

@@ -24,8 +24,8 @@
       "model": "user"
     },
     "inquiries": {
-      "collection": "inquiry",
-      "via": "order"
+      "via": "order",
+      "collection": "inquiry"
     }
   }
 }
